@@ -1,0 +1,1079 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "userTeamChosen",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "eventNumber",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "homeTeam",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "awayTeam",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "drawTeam",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "matchDate",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "chainId",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "betAmount",
+        "type": "uint256"
+      }
+    ],
+    "name": "BetMade",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "matchId",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "homeTeam",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "awayTeam",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "drawTeam",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "matchDate",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "place",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "sportType",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "address[]",
+        "name": "userList",
+        "type": "address[]"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "apiId",
+        "type": "uint256"
+      }
+    ],
+    "name": "MatchCreated",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "previousOwner",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "newOwner",
+        "type": "address"
+      }
+    ],
+    "name": "OwnershipTransferred",
+    "type": "event"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "_selectedMatch",
+        "type": "uint256"
+      }
+    ],
+    "name": "apiDataGetter",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "_apiId",
+        "type": "uint256"
+      },
+      {
+        "internalType": "string",
+        "name": "_sportType",
+        "type": "string"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "_apiId",
+        "type": "uint256"
+      },
+      {
+        "internalType": "string",
+        "name": "_sportType",
+        "type": "string"
+      }
+    ],
+    "name": "apidIdExistenceChecker",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "_matchCount",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "userTeamChosen",
+        "type": "string"
+      },
+      {
+        "internalType": "uint256",
+        "name": "eventNumber",
+        "type": "uint256"
+      },
+      {
+        "internalType": "string",
+        "name": "homeTeam",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "awayTeam",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "drawTeam",
+        "type": "string"
+      },
+      {
+        "internalType": "uint256",
+        "name": "matchDate",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "chainId",
+        "type": "uint256"
+      }
+    ],
+    "name": "appendUserBet",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "eventNumber",
+        "type": "uint256"
+      }
+    ],
+    "name": "betsOfUsersList",
+    "outputs": [
+      {
+        "internalType": "uint256[]",
+        "name": "",
+        "type": "uint256[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "eventNumber",
+        "type": "uint256"
+      }
+    ],
+    "name": "cancelEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "_chainId",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_eventNumber",
+        "type": "uint256"
+      }
+    ],
+    "name": "checkAwayPools",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "checkBalance",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "_eventNumber",
+        "type": "uint256"
+      }
+    ],
+    "name": "checkBetsTimestamps",
+    "outputs": [
+      {
+        "internalType": "uint256[]",
+        "name": "",
+        "type": "uint256[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "_chainId",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_eventNumber",
+        "type": "uint256"
+      }
+    ],
+    "name": "checkDrawPools",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "_chainId",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_eventNumber",
+        "type": "uint256"
+      }
+    ],
+    "name": "checkHomePools",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "_chainId",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_eventNumber",
+        "type": "uint256"
+      }
+    ],
+    "name": "checkTotalPools",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "_eventNumber",
+        "type": "uint256"
+      }
+    ],
+    "name": "checkUsers",
+    "outputs": [
+      {
+        "internalType": "address[]",
+        "name": "",
+        "type": "address[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "eventNumber",
+        "type": "uint256"
+      }
+    ],
+    "name": "chosenTeamsOfUsersList",
+    "outputs": [
+      {
+        "internalType": "string[]",
+        "name": "",
+        "type": "string[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "eventNumber",
+        "type": "uint256"
+      }
+    ],
+    "name": "closeEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "homeTeam",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "awayTeam",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "drawTeam",
+        "type": "string"
+      },
+      {
+        "internalType": "uint256",
+        "name": "matchDate",
+        "type": "uint256"
+      },
+      {
+        "internalType": "string",
+        "name": "place",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "sportType",
+        "type": "string"
+      },
+      {
+        "internalType": "address[]",
+        "name": "userList",
+        "type": "address[]"
+      },
+      {
+        "internalType": "uint256",
+        "name": "apiId",
+        "type": "uint256"
+      }
+    ],
+    "name": "createMatch",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "eventTypeDataCalculator",
+    "outputs": [
+      {
+        "internalType": "uint256[]",
+        "name": "_matchesList",
+        "type": "uint256[]"
+      },
+      {
+        "internalType": "string[]",
+        "name": "_sportTypeList",
+        "type": "string[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "eventNumber",
+        "type": "uint256"
+      }
+    ],
+    "name": "finishEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "matchCount",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "matchDatesList",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "matchDatesListGetter",
+    "outputs": [
+      {
+        "internalType": "uint256[]",
+        "name": "",
+        "type": "uint256[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "_sportType",
+        "type": "string"
+      }
+    ],
+    "name": "matchIdsNTypes",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "matchId",
+            "type": "uint256"
+          },
+          {
+            "internalType": "string",
+            "name": "sportType",
+            "type": "string"
+          },
+          {
+            "internalType": "uint256",
+            "name": "apiId",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct Event.MatchTypeStruct[]",
+        "name": "",
+        "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "selectedMatch",
+        "type": "uint256"
+      }
+    ],
+    "name": "matchLookUp",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "matchId",
+        "type": "uint256"
+      },
+      {
+        "internalType": "string",
+        "name": "homeTeam",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "awayTeam",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "drawTeam",
+        "type": "string"
+      },
+      {
+        "internalType": "uint256",
+        "name": "matchDate",
+        "type": "uint256"
+      },
+      {
+        "internalType": "string",
+        "name": "place",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "finished",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "sportType",
+        "type": "string"
+      },
+      {
+        "internalType": "address[]",
+        "name": "userList",
+        "type": "address[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "_selectedMatch",
+        "type": "uint256"
+      }
+    ],
+    "name": "matchSportTypeLookUp",
+    "outputs": [
+      {
+        "internalType": "string",
+        "name": "_sportType",
+        "type": "string"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "",
+        "type": "string"
+      },
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "matchTypeStructs",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "matchId",
+        "type": "uint256"
+      },
+      {
+        "internalType": "string",
+        "name": "sportType",
+        "type": "string"
+      },
+      {
+        "internalType": "uint256",
+        "name": "apiId",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "owner",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "renounceOwnership",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "timeCall",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address payable",
+        "name": "_recipient",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "transferAmount",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "newOwner",
+        "type": "address"
+      }
+    ],
+    "name": "transferOwnership",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "eventNumber",
+        "type": "uint256"
+      },
+      {
+        "internalType": "address",
+        "name": "userId",
+        "type": "address"
+      }
+    ],
+    "name": "userDidAlreadyBet",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "userId",
+        "type": "address"
+      }
+    ],
+    "name": "userMatchesLookUp",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "betAmount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256[]",
+            "name": "potentialWinnings",
+            "type": "uint256[]"
+          },
+          {
+            "internalType": "string",
+            "name": "teamChosen",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "betId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "uint256",
+            "name": "matchId",
+            "type": "uint256"
+          },
+          {
+            "internalType": "string",
+            "name": "homeTeam",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "awayTeam",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "drawTeam",
+            "type": "string"
+          },
+          {
+            "internalType": "uint256",
+            "name": "matchDate",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "chainId",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "timeStamp",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct SidechainBetting.UserStruct[]",
+        "name": "",
+        "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "eventNumber",
+        "type": "uint256"
+      },
+      {
+        "internalType": "address",
+        "name": "userId",
+        "type": "address"
+      }
+    ],
+    "name": "userStructBetAmountLookUp",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "eventNumber",
+        "type": "uint256"
+      },
+      {
+        "internalType": "address",
+        "name": "userId",
+        "type": "address"
+      }
+    ],
+    "name": "userStructChosenTeamLookUp",
+    "outputs": [
+      {
+        "internalType": "string",
+        "name": "",
+        "type": "string"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "eventNumber",
+        "type": "uint256"
+      },
+      {
+        "internalType": "address",
+        "name": "userId",
+        "type": "address"
+      }
+    ],
+    "name": "userStructLookUp",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "betAmount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256[]",
+            "name": "potentialWinnings",
+            "type": "uint256[]"
+          },
+          {
+            "internalType": "string",
+            "name": "teamChosen",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "betId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "uint256",
+            "name": "matchId",
+            "type": "uint256"
+          },
+          {
+            "internalType": "string",
+            "name": "homeTeam",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "awayTeam",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "drawTeam",
+            "type": "string"
+          },
+          {
+            "internalType": "uint256",
+            "name": "matchDate",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "chainId",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "timeStamp",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct SidechainBetting.UserStruct",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "userStructs",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "betAmount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "string",
+        "name": "teamChosen",
+        "type": "string"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "betId",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "uint256",
+        "name": "matchId",
+        "type": "uint256"
+      },
+      {
+        "internalType": "string",
+        "name": "homeTeam",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "awayTeam",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "drawTeam",
+        "type": "string"
+      },
+      {
+        "internalType": "uint256",
+        "name": "matchDate",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "chainId",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "timeStamp",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

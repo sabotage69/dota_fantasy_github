@@ -1,0 +1,17 @@
+{
+  "csgo": [
+    "https://seeklogo.com/images/C/csgo-logo-CAA0A4D48A-seeklogo.com.png"
+  ],
+  "dota": ["https://cdn-icons-png.flaticon.com/512/588/588267.png"],
+  "soccer": ["https://pngimg.com/uploads/football/small/football_PNG52797.png"],
+  "tennis": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Tennis_ball_3.svg/768px-Tennis_ball_3.svg.png"
+  ],
+  "politics": ["https://cdn-icons-png.flaticon.com/512/1651/1651652.png"],
+  "twitch": ["https://cdn-icons-png.flaticon.com/512/3669/3669999.png"],
+  "world": ["https://cdn-icons-png.flaticon.com/512/814/814513.png"],
+  "other": ["https://cdn-icons-png.flaticon.com/512/8106/8106905.png"],
+  "sports": ["./sport_icons/balls-sports.png"],
+  "esports": ["./sport_icons/game-console.png"],
+  "economics": ["./sport_icons/money-growth.png"]
+}

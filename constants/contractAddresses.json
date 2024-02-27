@@ -1,0 +1,10 @@
+{
+  "80001": [
+    "0x2EF1B8d9080f377689bF412349f761F20a8A7889",
+    "https://rpc-mumbai.maticvigil.com"
+  ],
+  "11155111": [
+    "0xD7e850ad774d69015fb90211B11Eb7865d95983b",
+    "https://sepolia.infura.io/v3/36efee93682348e1aede2066c1d178a6"
+  ]
+}

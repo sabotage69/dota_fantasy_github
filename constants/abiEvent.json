@@ -1,0 +1,461 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "matchId",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "homeTeam",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "awayTeam",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "drawTeam",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "matchDate",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "place",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "sportType",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "address[]",
+        "name": "userList",
+        "type": "address[]"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "apiId",
+        "type": "uint256"
+      }
+    ],
+    "name": "MatchCreated",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "previousOwner",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "newOwner",
+        "type": "address"
+      }
+    ],
+    "name": "OwnershipTransferred",
+    "type": "event"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "_selectedMatch",
+        "type": "uint256"
+      }
+    ],
+    "name": "apiDataGetter",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "_apiId",
+        "type": "uint256"
+      },
+      {
+        "internalType": "string",
+        "name": "_sportType",
+        "type": "string"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "_apiId",
+        "type": "uint256"
+      },
+      {
+        "internalType": "string",
+        "name": "_sportType",
+        "type": "string"
+      }
+    ],
+    "name": "apidIdExistenceChecker",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "_matchCount",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "eventNumber",
+        "type": "uint256"
+      }
+    ],
+    "name": "cancelEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "eventNumber",
+        "type": "uint256"
+      }
+    ],
+    "name": "closeEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "homeTeam",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "awayTeam",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "drawTeam",
+        "type": "string"
+      },
+      {
+        "internalType": "uint256",
+        "name": "matchDate",
+        "type": "uint256"
+      },
+      {
+        "internalType": "string",
+        "name": "place",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "sportType",
+        "type": "string"
+      },
+      {
+        "internalType": "address[]",
+        "name": "userList",
+        "type": "address[]"
+      },
+      {
+        "internalType": "uint256",
+        "name": "apiId",
+        "type": "uint256"
+      }
+    ],
+    "name": "createMatch",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "eventTypeDataCalculator",
+    "outputs": [
+      {
+        "internalType": "uint256[]",
+        "name": "_matchesList",
+        "type": "uint256[]"
+      },
+      {
+        "internalType": "string[]",
+        "name": "_sportTypeList",
+        "type": "string[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "eventNumber",
+        "type": "uint256"
+      }
+    ],
+    "name": "finishEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "matchCount",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "matchDatesList",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "matchDatesListGetter",
+    "outputs": [
+      {
+        "internalType": "uint256[]",
+        "name": "",
+        "type": "uint256[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "_sportType",
+        "type": "string"
+      }
+    ],
+    "name": "matchIdsNTypes",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "matchId",
+            "type": "uint256"
+          },
+          {
+            "internalType": "string",
+            "name": "sportType",
+            "type": "string"
+          },
+          {
+            "internalType": "uint256",
+            "name": "apiId",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct Event.MatchTypeStruct[]",
+        "name": "",
+        "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "selectedMatch",
+        "type": "uint256"
+      }
+    ],
+    "name": "matchLookUp",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "matchId",
+        "type": "uint256"
+      },
+      {
+        "internalType": "string",
+        "name": "homeTeam",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "awayTeam",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "drawTeam",
+        "type": "string"
+      },
+      {
+        "internalType": "uint256",
+        "name": "matchDate",
+        "type": "uint256"
+      },
+      {
+        "internalType": "string",
+        "name": "place",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "finished",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "sportType",
+        "type": "string"
+      },
+      {
+        "internalType": "address[]",
+        "name": "userList",
+        "type": "address[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "_selectedMatch",
+        "type": "uint256"
+      }
+    ],
+    "name": "matchSportTypeLookUp",
+    "outputs": [
+      {
+        "internalType": "string",
+        "name": "_sportType",
+        "type": "string"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "",
+        "type": "string"
+      },
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "matchTypeStructs",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "matchId",
+        "type": "uint256"
+      },
+      {
+        "internalType": "string",
+        "name": "sportType",
+        "type": "string"
+      },
+      {
+        "internalType": "uint256",
+        "name": "apiId",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "owner",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "renounceOwnership",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "newOwner",
+        "type": "address"
+      }
+    ],
+    "name": "transferOwnership",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

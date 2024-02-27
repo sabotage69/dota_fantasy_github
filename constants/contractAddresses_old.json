@@ -1,0 +1,22 @@
+{
+  "4": [
+    "0xbEcb8C9ff9696f69805e83c760fc8008b8dFe845",
+    "https://rinkeby.infura.io/v3/36efee93682348e1aede2066c1d178a6"
+  ],
+  "31337": [
+    "0xbEb7eC515707E0C0593Bf3201D19B3a5B9b50fb8",
+    "http://127.0.0.1:8545/"
+  ],
+  "80001": [
+    "0xAE4B40106272E3e3FC7Ff7B8c013eD674aD9BA0E",
+    "https://rpc-mumbai.maticvigil.com"
+  ],
+  "97": [
+    "0x055A7f02cF3c41F85C9fFd686ffe3eF218b236F2",
+    "https://data-seed-prebsc-1-s1.binance.org:8545/"
+  ],
+  "5": [
+    "0x0308A257b037c689da76E58EDC405870598Ee8ad",
+    "https://goerli.infura.io/v3/36efee93682348e1aede2066c1d178a6"
+  ]
+}

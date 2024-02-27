@@ -1,0 +1,994 @@
+[
+  {
+    "id": 1,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/3/30/Anti-Mage_minimap_icon.png",
+    "name_loc": "Anti-Mage",
+    "name": "Anti-Mage",
+    "primary_attr": 1,
+    "complexity": 1
+  },
+  {
+    "id": 2,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/f/f7/Axe_minimap_icon.png",
+    "name_loc": "Axe",
+    "name": "Axe",
+    "primary_attr": 0,
+    "complexity": 1
+  },
+  {
+    "id": 3,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/0/0d/Bane_minimap_icon.png",
+    "name_loc": "Bane",
+    "name": "Bane",
+    "primary_attr": 2,
+    "complexity": 2
+  },
+  {
+    "id": 4,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/5/57/Bloodseeker_minimap_icon.png",
+    "name_loc": "Bloodseeker",
+    "name": "Bloodseeker",
+    "primary_attr": 1,
+    "complexity": 1
+  },
+  {
+    "id": 5,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/b/b4/Crystal_Maiden_minimap_icon.png",
+    "name_loc": "Crystal Maiden",
+    "name": "Crystal Maiden",
+    "primary_attr": 2,
+    "complexity": 1
+  },
+  {
+    "id": 6,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/6/63/Drow_Ranger_minimap_icon.png",
+    "name_loc": "Drow Ranger",
+    "name": "Drow Ranger",
+    "primary_attr": 1,
+    "complexity": 1
+  },
+  {
+    "id": 7,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/4/42/Earthshaker_minimap_icon.png",
+    "name_loc": "Earthshaker",
+    "name": "Earthshaker",
+    "primary_attr": 0,
+    "complexity": 2
+  },
+  {
+    "id": 8,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/b/b2/Juggernaut_minimap_icon.png",
+    "name_loc": "Juggernaut",
+    "name": "Juggernaut",
+    "primary_attr": 1,
+    "complexity": 1
+  },
+  {
+    "id": 9,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/b/b3/Mirana_minimap_icon.png",
+    "name_loc": "Mirana",
+    "name": "Mirana",
+    "primary_attr": 1,
+    "complexity": 2
+  },
+  {
+    "id": 11,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/0/00/Shadow_Fiend_minimap_icon.png",
+    "name_loc": "Shadow Fiend",
+    "name": "Shadow Fiend",
+    "primary_attr": 1,
+    "complexity": 2
+  },
+  {
+    "id": 10,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/13/Morphling_minimap_icon.png",
+    "name_loc": "Morphling",
+    "name": "Morphling",
+    "primary_attr": 1,
+    "complexity": 3
+  },
+  {
+    "id": 12,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/f/f9/Phantom_Lancer_minimap_icon.png",
+    "name_loc": "Phantom Lancer",
+    "name": "Phantom Lancer",
+    "primary_attr": 1,
+    "complexity": 2
+  },
+  {
+    "id": 13,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/c/cf/Puck_minimap_icon.png",
+    "name_loc": "Puck",
+    "name": "Puck",
+    "primary_attr": 2,
+    "complexity": 2
+  },
+  {
+    "id": 14,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/5/55/Pudge_minimap_icon.png",
+    "name_loc": "Pudge",
+    "name": "Pudge",
+    "primary_attr": 0,
+    "complexity": 2
+  },
+  {
+    "id": 15,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/2/2b/Razor_minimap_icon.png",
+    "name_loc": "Razor",
+    "name": "Razor",
+    "primary_attr": 1,
+    "complexity": 1
+  },
+  {
+    "id": 16,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/9f/Sand_King_minimap_icon.png",
+    "name_loc": "Sand King",
+    "name": "Sand King",
+    "primary_attr": 0,
+    "complexity": 2
+  },
+  {
+    "id": 17,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/d/d6/Storm_Spirit_minimap_icon.png",
+    "name_loc": "Storm Spirit",
+    "name": "Storm Spirit",
+    "primary_attr": 2,
+    "complexity": 2
+  },
+  {
+    "id": 18,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/1c/Sven_minimap_icon.png",
+    "name_loc": "Sven",
+    "name": "Sven",
+    "primary_attr": 0,
+    "complexity": 1
+  },
+  {
+    "id": 19,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/b/b2/Tiny_minimap_icon.png",
+    "name_loc": "Tiny",
+    "name": "Tiny",
+    "primary_attr": 0,
+    "complexity": 2
+  },
+  {
+    "id": 20,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/0/09/Vengeful_Spirit_minimap_icon.png",
+    "name_loc": "Vengeful Spirit",
+    "name": "Vengeful Spirit",
+    "primary_attr": 1,
+    "complexity": 1
+  },
+  {
+    "id": 21,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/d/df/Windranger_minimap_icon.png",
+    "name_loc": "Windranger",
+    "name": "Windranger",
+    "primary_attr": 2,
+    "complexity": 2
+  },
+  {
+    "id": 22,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/3/3a/Zeus_minimap_icon.png",
+    "name_loc": "Zeus",
+    "name": "Zeus",
+    "primary_attr": 2,
+    "complexity": 1
+  },
+  {
+    "id": 23,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/5/5b/Kunkka_minimap_icon.png",
+    "name_loc": "Kunkka",
+    "name": "Kunkka",
+    "primary_attr": 0,
+    "complexity": 2
+  },
+  {
+    "id": 25,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/4/44/Lina_minimap_icon.png",
+    "name_loc": "Lina",
+    "name": "Lina",
+    "primary_attr": 2,
+    "complexity": 1
+  },
+  {
+    "id": 31,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/0/08/Lich_minimap_icon.png",
+    "name_loc": "Lich",
+    "name": "Lich",
+    "primary_attr": 2,
+    "complexity": 1
+  },
+  {
+    "id": 26,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/13/Lion_minimap_icon.png",
+    "name_loc": "Lion",
+    "name": "Lion",
+    "primary_attr": 2,
+    "complexity": 1
+  },
+  {
+    "id": 27,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/7/7e/Shadow_Shaman_minimap_icon.png",
+    "name_loc": "Shadow Shaman",
+    "name": "Shadow Shaman",
+    "primary_attr": 2,
+    "complexity": 1
+  },
+  {
+    "id": 28,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/e/ef/Slardar_minimap_icon.png",
+    "name_loc": "Slardar",
+    "name": "Slardar",
+    "primary_attr": 0,
+    "complexity": 1
+  },
+  {
+    "id": 29,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/d/d4/Tidehunter_minimap_icon.png",
+    "name_loc": "Tidehunter",
+    "name": "Tidehunter",
+    "primary_attr": 0,
+    "complexity": 1
+  },
+  {
+    "id": 30,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/b/b6/Witch_Doctor_minimap_icon.png",
+    "name_loc": "Witch Doctor",
+    "name": "Witch Doctor",
+    "primary_attr": 2,
+    "complexity": 1
+  },
+  {
+    "id": 32,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/a/a4/Riki_minimap_icon.png",
+    "name_loc": "Riki",
+    "name": "Riki",
+    "primary_attr": 1,
+    "complexity": 1
+  },
+  {
+    "id": 33,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/0/03/Enigma_minimap_icon.png",
+    "name_loc": "Enigma",
+    "name": "Enigma",
+    "primary_attr": 2,
+    "complexity": 2
+  },
+  {
+    "id": 34,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/1b/Tinker_minimap_icon.png",
+    "name_loc": "Tinker",
+    "name": "Tinker",
+    "primary_attr": 2,
+    "complexity": 2
+  },
+  {
+    "id": 35,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/f/f1/Sniper_minimap_icon.png",
+    "name_loc": "Sniper",
+    "name": "Sniper",
+    "primary_attr": 1,
+    "complexity": 1
+  },
+  {
+    "id": 36,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/a/af/Necrophos_minimap_icon.png",
+    "name_loc": "Necrophos",
+    "name": "Necrophos",
+    "primary_attr": 2,
+    "complexity": 1
+  },
+  {
+    "id": 37,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/d/d3/Warlock_minimap_icon.png",
+    "name_loc": "Warlock",
+    "name": "Warlock",
+    "primary_attr": 2,
+    "complexity": 1
+  },
+  {
+    "id": 38,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/5/5c/Beastmaster_minimap_icon.png",
+    "name_loc": "Beastmaster",
+    "name": "Beastmaster",
+    "primary_attr": 0,
+    "complexity": 2
+  },
+  {
+    "id": 39,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/0/0f/Queen_of_Pain_minimap_icon.png",
+    "name_loc": "Queen of Pain",
+    "name": "Queen of Pain",
+    "primary_attr": 2,
+    "complexity": 2
+  },
+  {
+    "id": 40,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/95/Venomancer_minimap_icon.png",
+    "name_loc": "Venomancer",
+    "name": "Venomancer",
+    "primary_attr": 1,
+    "complexity": 1
+  },
+  {
+    "id": 41,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/8/8e/Faceless_Void_minimap_icon.png",
+    "name_loc": "Faceless Void",
+    "name": "Faceless Void",
+    "primary_attr": 1,
+    "complexity": 2
+  },
+  {
+    "id": 42,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/2/22/Wraith_King_minimap_icon.png",
+    "name_loc": "Wraith King",
+    "name": "Wraith King",
+    "primary_attr": 0,
+    "complexity": 1
+  },
+  {
+    "id": 43,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/5/5d/Death_Prophet_minimap_icon.png",
+    "name_loc": "Death Prophet",
+    "name": "Death Prophet",
+    "primary_attr": 2,
+    "complexity": 1
+  },
+  {
+    "id": 44,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c9/Phantom_Assassin_minimap_icon.png",
+    "name_loc": "Phantom Assassin",
+    "name": "Phantom Assassin",
+    "primary_attr": 1,
+    "complexity": 1
+  },
+  {
+    "id": 45,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/a/ab/Pugna_minimap_icon.png",
+    "name_loc": "Pugna",
+    "name": "Pugna",
+    "primary_attr": 2,
+    "complexity": 2
+  },
+  {
+    "id": 46,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/6/6b/Templar_Assassin_minimap_icon.png",
+    "name_loc": "Templar Assassin",
+    "name": "Templar Assassin",
+    "primary_attr": 1,
+    "complexity": 2
+  },
+  {
+    "id": 47,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/c/cb/Viper_minimap_icon.png",
+    "name_loc": "Viper",
+    "name": "Viper",
+    "primary_attr": 1,
+    "complexity": 1
+  },
+  {
+    "id": 48,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/8/8c/Luna_minimap_icon.png",
+    "name_loc": "Luna",
+    "name": "Luna",
+    "primary_attr": 1,
+    "complexity": 1
+  },
+  {
+    "id": 49,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/2/21/Dragon_Knight_minimap_icon.png",
+    "name_loc": "Dragon Knight",
+    "name": "Dragon Knight",
+    "primary_attr": 0,
+    "complexity": 1
+  },
+  {
+    "id": 50,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/3/3b/Dazzle_minimap_icon.png",
+    "name_loc": "Dazzle",
+    "name": "Dazzle",
+    "primary_attr": 2,
+    "complexity": 1
+  },
+  {
+    "id": 51,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/12/Clockwerk_minimap_icon.png",
+    "name_loc": "Clockwerk",
+    "name": "Clockwerk",
+    "primary_attr": 0,
+    "complexity": 2
+  },
+  {
+    "id": 52,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c8/Leshrac_minimap_icon.png",
+    "name_loc": "Leshrac",
+    "name": "Leshrac",
+    "primary_attr": 2,
+    "complexity": 1
+  },
+  {
+    "id": 53,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/a/a4/Nature's_Prophet_minimap_icon.png",
+    "name_loc": "Nature's Prophet",
+    "name": "Nature's Prophet",
+    "primary_attr": 2,
+    "complexity": 2
+  },
+  {
+    "id": 54,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/7/74/Lifestealer_minimap_icon.png",
+    "name_loc": "Lifestealer",
+    "name": "Lifestealer",
+    "primary_attr": 0,
+    "complexity": 2
+  },
+  {
+    "id": 55,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/5/5a/Dark_Seer_minimap_icon.png",
+    "name_loc": "Dark Seer",
+    "name": "Dark Seer",
+    "primary_attr": 2,
+    "complexity": 1
+  },
+  {
+    "id": 56,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/16/Clinkz_minimap_icon.png",
+    "name_loc": "Clinkz",
+    "name": "Clinkz",
+    "primary_attr": 1,
+    "complexity": 2
+  },
+  {
+    "id": 57,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/0/05/Omniknight_minimap_icon.png",
+    "name_loc": "Omniknight",
+    "name": "Omniknight",
+    "primary_attr": 0,
+    "complexity": 1
+  },
+  {
+    "id": 58,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/e/ef/Enchantress_minimap_icon.png",
+    "name_loc": "Enchantress",
+    "name": "Enchantress",
+    "primary_attr": 2,
+    "complexity": 2
+  },
+  {
+    "id": 59,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/5/5b/Huskar_minimap_icon.png",
+    "name_loc": "Huskar",
+    "name": "Huskar",
+    "primary_attr": 0,
+    "complexity": 1
+  },
+  {
+    "id": 60,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/7/7f/Night_Stalker_minimap_icon.png",
+    "name_loc": "Night Stalker",
+    "name": "Night Stalker",
+    "primary_attr": 0,
+    "complexity": 1
+  },
+  {
+    "id": 61,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/19/Broodmother_minimap_icon.png",
+    "name_loc": "Broodmother",
+    "name": "Broodmother",
+    "primary_attr": 1,
+    "complexity": 2
+  },
+  {
+    "id": 62,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/9c/Bounty_Hunter_minimap_icon.png",
+    "name_loc": "Bounty Hunter",
+    "name": "Bounty Hunter",
+    "primary_attr": 1,
+    "complexity": 1
+  },
+  {
+    "id": 63,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/d/d5/Weaver_minimap_icon.png",
+    "name_loc": "Weaver",
+    "name": "Weaver",
+    "primary_attr": 1,
+    "complexity": 2
+  },
+  {
+    "id": 64,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/b/b6/Jakiro_minimap_icon.png",
+    "name_loc": "Jakiro",
+    "name": "Jakiro",
+    "primary_attr": 2,
+    "complexity": 1
+  },
+  {
+    "id": 65,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/0/0d/Batrider_minimap_icon.png",
+    "name_loc": "Batrider",
+    "name": "Batrider",
+    "primary_attr": 2,
+    "complexity": 2
+  },
+  {
+    "id": 66,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/f/fc/Chen_minimap_icon.png",
+    "name_loc": "Chen",
+    "name": "Chen",
+    "primary_attr": 2,
+    "complexity": 3
+  },
+  {
+    "id": 67,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/6/64/Spectre_minimap_icon.png",
+    "name_loc": "Spectre",
+    "name": "Spectre",
+    "primary_attr": 1,
+    "complexity": 2
+  },
+  {
+    "id": 69,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/96/Doom_minimap_icon.png",
+    "name_loc": "Doom",
+    "name": "Doom",
+    "primary_attr": 0,
+    "complexity": 2
+  },
+  {
+    "id": 68,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/2/25/Ancient_Apparition_minimap_icon.png",
+    "name_loc": "Ancient Apparition",
+    "name": "Ancient Apparition",
+    "primary_attr": 2,
+    "complexity": 2
+  },
+  {
+    "id": 70,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/e/ee/Ursa_minimap_icon.png",
+    "name_loc": "Ursa",
+    "name": "Ursa",
+    "primary_attr": 1,
+    "complexity": 1
+  },
+  {
+    "id": 71,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/90/Spirit_Breaker_minimap_icon.png",
+    "name_loc": "Spirit Breaker",
+    "name": "Spirit Breaker",
+    "primary_attr": 0,
+    "complexity": 1
+  },
+  {
+    "id": 72,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/f/f8/Gyrocopter_minimap_icon.png",
+    "name_loc": "Gyrocopter",
+    "name": "Gyrocopter",
+    "primary_attr": 1,
+    "complexity": 1
+  },
+  {
+    "id": 73,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/1e/Alchemist_minimap_icon.png",
+    "name_loc": "Alchemist",
+    "name": "Alchemist",
+    "primary_attr": 0,
+    "complexity": 1
+  },
+  {
+    "id": 74,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/7/7d/Invoker_minimap_icon.png",
+    "name_loc": "Invoker",
+    "name": "Invoker",
+    "primary_attr": 2,
+    "complexity": 3
+  },
+  {
+    "id": 75,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/0/0f/Silencer_minimap_icon.png",
+    "name_loc": "Silencer",
+    "name": "Silencer",
+    "primary_attr": 2,
+    "complexity": 2
+  },
+  {
+    "id": 76,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/d/d0/Outworld_Destroyer_minimap_icon.png",
+    "name_loc": "Outworld Destroyer",
+    "name": "Outworld Destroyer",
+    "primary_attr": 2,
+    "complexity": 2
+  },
+  {
+    "id": 77,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/4/4f/Lycan_minimap_icon.png",
+    "name_loc": "Lycan",
+    "name": "Lycan",
+    "primary_attr": 0,
+    "complexity": 2
+  },
+  {
+    "id": 78,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/9b/Brewmaster_minimap_icon.png",
+    "name_loc": "Brewmaster",
+    "name": "Brewmaster",
+    "primary_attr": 0,
+    "complexity": 3
+  },
+  {
+    "id": 79,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/3/35/Shadow_Demon_minimap_icon.png",
+    "name_loc": "Shadow Demon",
+    "name": "Shadow Demon",
+    "primary_attr": 2,
+    "complexity": 2
+  },
+  {
+    "id": 80,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/0/08/Lone_Druid_minimap_icon.png",
+    "name_loc": "Lone Druid",
+    "name": "Lone Druid",
+    "primary_attr": 1,
+    "complexity": 3
+  },
+  {
+    "id": 81,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/9f/Chaos_Knight_minimap_icon.png",
+    "name_loc": "Chaos Knight",
+    "name": "Chaos Knight",
+    "primary_attr": 0,
+    "complexity": 1
+  },
+  {
+    "id": 82,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/17/Meepo_minimap_icon.png",
+    "name_loc": "Meepo",
+    "name": "Meepo",
+    "primary_attr": 1,
+    "complexity": 3
+  },
+  {
+    "id": 83,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/8/8f/Treant_Protector_minimap_icon.png",
+    "name_loc": "Treant Protector",
+    "name": "Treant Protector",
+    "primary_attr": 0,
+    "complexity": 2
+  },
+  {
+    "id": 84,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/5/55/Ogre_Magi_minimap_icon.png",
+    "name_loc": "Ogre Magi",
+    "name": "Ogre Magi",
+    "primary_attr": 2,
+    "complexity": 1
+  },
+  {
+    "id": 85,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/8/8a/Undying_minimap_icon.png",
+    "name_loc": "Undying",
+    "name": "Undying",
+    "primary_attr": 0,
+    "complexity": 1
+  },
+  {
+    "id": 86,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/6/61/Rubick_minimap_icon.png",
+    "name_loc": "Rubick",
+    "name": "Rubick",
+    "primary_attr": 2,
+    "complexity": 3
+  },
+  {
+    "id": 87,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/b/b9/Disruptor_minimap_icon.png",
+    "name_loc": "Disruptor",
+    "name": "Disruptor",
+    "primary_attr": 2,
+    "complexity": 2
+  },
+  {
+    "id": 88,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/a/aa/Nyx_Assassin_minimap_icon.png",
+    "name_loc": "Nyx Assassin",
+    "name": "Nyx Assassin",
+    "primary_attr": 1,
+    "complexity": 2
+  },
+  {
+    "id": 89,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/6/6c/Naga_Siren_minimap_icon.png",
+    "name_loc": "Naga Siren",
+    "name": "Naga Siren",
+    "primary_attr": 1,
+    "complexity": 2
+  },
+  {
+    "id": 90,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/7/76/Keeper_of_the_Light_minimap_icon.png",
+    "name_loc": "Keeper of the Light",
+    "name": "Keeper of the Light",
+    "primary_attr": 2,
+    "complexity": 2
+  },
+  {
+    "id": 91,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/8/86/Io_minimap_icon.png",
+    "name_loc": "Io",
+    "name": "Io",
+    "primary_attr": 0,
+    "complexity": 3
+  },
+  {
+    "id": 92,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/2/2f/Visage_minimap_icon.png",
+    "name_loc": "Visage",
+    "name": "Visage",
+    "primary_attr": 2,
+    "complexity": 3
+  },
+  {
+    "id": 93,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/1c/Slark_minimap_icon.png",
+    "name_loc": "Slark",
+    "name": "Slark",
+    "primary_attr": 1,
+    "complexity": 2
+  },
+  {
+    "id": 94,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/6/64/Medusa_minimap_icon.png",
+    "name_loc": "Medusa",
+    "name": "Medusa",
+    "primary_attr": 1,
+    "complexity": 1
+  },
+  {
+    "id": 95,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/a/a2/Troll_Warlord_minimap_icon.png",
+    "name_loc": "Troll Warlord",
+    "name": "Troll Warlord",
+    "primary_attr": 1,
+    "complexity": 2
+  },
+  {
+    "id": 96,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/5/5e/Centaur_Warrunner_minimap_icon.png",
+    "name_loc": "Centaur Warrunner",
+    "name": "Centaur Warrunner",
+    "primary_attr": 0,
+    "complexity": 1
+  },
+  {
+    "id": 97,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/7/7f/Magnus_minimap_icon.png",
+    "name_loc": "Magnus",
+    "name": "Magnus",
+    "primary_attr": 0,
+    "complexity": 2
+  },
+  {
+    "id": 98,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/4/49/Timbersaw_minimap_icon.png",
+    "name_loc": "Timbersaw",
+    "name": "Timbersaw",
+    "primary_attr": 0,
+    "complexity": 2
+  },
+  {
+    "id": 99,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/a/a8/Bristleback_minimap_icon.png",
+    "name_loc": "Bristleback",
+    "name": "Bristleback",
+    "primary_attr": 0,
+    "complexity": 1
+  },
+  {
+    "id": 100,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c3/Tusk_minimap_icon.png",
+    "name_loc": "Tusk",
+    "name": "Tusk",
+    "primary_attr": 0,
+    "complexity": 1
+  },
+  {
+    "id": 101,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/8/84/Skywrath_Mage_minimap_icon.png",
+    "name_loc": "Skywrath Mage",
+    "name": "Skywrath Mage",
+    "primary_attr": 2,
+    "complexity": 1
+  },
+  {
+    "id": 102,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/c/cc/Abaddon_minimap_icon.png",
+    "name_loc": "Abaddon",
+    "name": "Abaddon",
+    "primary_attr": 0,
+    "complexity": 1
+  },
+  {
+    "id": 103,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/9f/Elder_Titan_minimap_icon.png",
+    "name_loc": "Elder Titan",
+    "name": "Elder Titan",
+    "primary_attr": 0,
+    "complexity": 2
+  },
+  {
+    "id": 104,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/10/Legion_Commander_minimap_icon.png",
+    "name_loc": "Legion Commander",
+    "name": "Legion Commander",
+    "primary_attr": 0,
+    "complexity": 1
+  },
+  {
+    "id": 106,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/f/fc/Ember_Spirit_minimap_icon.png",
+    "name_loc": "Ember Spirit",
+    "name": "Ember Spirit",
+    "primary_attr": 1,
+    "complexity": 2
+  },
+  {
+    "id": 107,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/1f/Earth_Spirit_minimap_icon.png",
+    "name_loc": "Earth Spirit",
+    "name": "Earth Spirit",
+    "primary_attr": 0,
+    "complexity": 3
+  },
+  {
+    "id": 109,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/7/72/Terrorblade_minimap_icon.png",
+    "name_loc": "Terrorblade",
+    "name": "Terrorblade",
+    "primary_attr": 1,
+    "complexity": 2
+  },
+  {
+    "id": 110,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/2/21/Phoenix_minimap_icon.png",
+    "name_loc": "Phoenix",
+    "name": "Phoenix",
+    "primary_attr": 0,
+    "complexity": 2
+  },
+  {
+    "id": 111,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/6/61/Oracle_minimap_icon.png",
+    "name_loc": "Oracle",
+    "name": "Oracle",
+    "primary_attr": 2,
+    "complexity": 3
+  },
+  {
+    "id": 105,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/0/0c/Techies_minimap_icon.png",
+    "name_loc": "Techies",
+    "name": "Techies",
+    "primary_attr": 2,
+    "complexity": 2
+  },
+  {
+    "id": 112,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/0/06/Winter_Wyvern_minimap_icon.png",
+    "name_loc": "Winter Wyvern",
+    "name": "Winter Wyvern",
+    "primary_attr": 2,
+    "complexity": 2
+  },
+  {
+    "id": 113,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/e/e9/Arc_Warden_minimap_icon.png",
+    "name_loc": "Arc Warden",
+    "name": "Arc Warden",
+    "primary_attr": 1,
+    "complexity": 3
+  },
+  {
+    "id": 108,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/2/29/Underlord_minimap_icon.png",
+    "name_loc": "Underlord",
+    "name": "Underlord",
+    "primary_attr": 0,
+    "complexity": 2
+  },
+  {
+    "id": 114,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/7/76/Monkey_King_minimap_icon.png",
+    "name_loc": "Monkey King",
+    "name": "Monkey King",
+    "primary_attr": 1,
+    "complexity": 2
+  },
+  {
+    "id": 120,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/8/80/Pangolier_minimap_icon.png",
+    "name_loc": "Pangolier",
+    "name": "Pangolier",
+    "primary_attr": 1,
+    "complexity": 2
+  },
+  {
+    "id": 119,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/4/47/Dark_Willow_minimap_icon.png",
+    "name_loc": "Dark Willow",
+    "name": "Dark Willow",
+    "primary_attr": 2,
+    "complexity": 2
+  },
+  {
+    "id": 121,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/b/bd/Grimstroke_minimap_icon.png",
+    "name_loc": "Grimstroke",
+    "name": "Grimstroke",
+    "primary_attr": 2,
+    "complexity": 2
+  },
+  {
+    "id": 129,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/6/6c/Mars_minimap_icon.png",
+    "name_loc": "Mars",
+    "name": "Mars",
+    "primary_attr": 0,
+    "complexity": 1
+  },
+  {
+    "id": 126,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/0/02/Void_Spirit_minimap_icon.png",
+    "name_loc": "Void Spirit",
+    "name": "Void Spirit",
+    "primary_attr": 2,
+    "complexity": 2
+  },
+  {
+    "id": 128,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/e/e1/Snapfire_minimap_icon.png",
+    "name_loc": "Snapfire",
+    "name": "Snapfire",
+    "primary_attr": 0,
+    "complexity": 1
+  },
+  {
+    "id": 123,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/d/d0/Hoodwink_minimap_icon.png",
+    "name_loc": "Hoodwink",
+    "name": "Hoodwink",
+    "primary_attr": 1,
+    "complexity": 2
+  },
+  {
+    "id": 135,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/3/3b/Dawnbreaker_minimap_icon.png",
+    "name_loc": "Dawnbreaker",
+    "name": "Dawnbreaker",
+    "primary_attr": 0,
+    "complexity": 1
+  },
+  {
+    "id": 136,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/f/ff/Marci_minimap_icon.png",
+    "name_loc": "Marci",
+    "name": "Marci",
+    "primary_attr": 0,
+    "complexity": 2
+  },
+  {
+    "id": 137,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/17/Primal_Beast_minimap_icon.png",
+    "name_loc": "Primal Beast",
+    "name": "Primal Beast",
+    "primary_attr": 0,
+    "complexity": 1
+  },
+  {
+    "id": 138,
+    "icon": "https://static.wikia.nocookie.net/dota2_gamepedia/images/8/85/Muerta_minimap_icon.png",
+    "name_loc": "Muerta",
+    "name": "Muerta",
+    "primary_attr": 2,
+    "complexity": 2
+  }
+]
