@@ -2,10 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
 
-  images: {
-    loader: "imgix",
-    path: "/",
-  },
+  // images: {
+  //   loader: "imgix",
+  //   path: "/",
+  // },
   // exportTrailingSlash: true, // comment this out when yarn build and yarn next export
 };
 
