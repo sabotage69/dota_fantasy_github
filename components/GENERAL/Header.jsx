@@ -111,7 +111,7 @@ export default function Header({
         data-bs-theme="dark"
       >
         <Container fluid>
-          <Navbar.Brand href="/">MasterBetter</Navbar.Brand>
+          <Navbar.Brand href="/">Esports Fantasy</Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-${expand}`}
