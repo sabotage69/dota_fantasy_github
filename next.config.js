@@ -1,13 +1,12 @@
-/** @type {import('next').NextConfig} */
+/**
+ * @type {import('next').NextConfig}
+ */
 const nextConfig = {
-  reactStrictMode: true,
-  output: "export", // <=== enables static exports
-  basePath: "/dota_fantasy_github",
-  // images: {
-  //   loader: "imgix",
-  //   path: "/",
-  // },
-  // exportTrailingSlash: true, // comment this out when yarn build and yarn next export
+  images: {
+    loader: "akamai",
+    path: "",
+  },
+  assetPrefix: "./",
 };
 
-module.exports = nextConfig;
+export default nextConfig;
